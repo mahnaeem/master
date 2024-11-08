@@ -14,6 +14,7 @@ class Solution {
             
             // Check if the string representation matches the original integer when parsed back to an integer
             if (n == Integer.parseInt(s)) {
+                
                 System.out.println("Good job");
             } else {
                 System.out.println("Wrong answer.");
